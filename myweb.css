@@ -1,0 +1,460 @@
+/* Genearl part */
+html {
+    font-size: 1rem;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 100%; 
+    font-family: "Lexend Deca";
+}
+h1{
+    font-size: 2.5em;
+}
+h2{
+    font-size: 1.875em;
+}
+h3{
+    font-size: 1.25em;
+    font-weight: lighter;
+}
+p{
+    font-size: 0.875em;
+    font-weight: lighter;
+}
+@font-face {
+    font-family: 'basteleurbold';
+    src: url('./cost_font/basteleur-bold-webfont.woff2') format('woff2'),
+         url('./Cost_font/basteleur-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* p {
+    font-size: 1.2rem;
+} */
+.logo {
+    font-family: 'basteleurbold';
+    font-size: 1.5em;
+}
+.logo:hover {
+    color: black;
+}
+
+    
+.background-image {
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+.bg {
+    background-color: #faf1e6;
+}
+/* Navagation bar */
+.nav-right {
+    margin-right: 50px;
+}
+.nav-bg {
+    background-color: #F0DFC5;
+}
+.nav-space {
+    padding-right: 4em;
+}
+.nav-space-contact {
+    padding-right: 2em;
+}
+.nav-link-font {
+    font-size: 1.1rem;
+    font-variant-caps: all-small-caps;
+}
+.dropdown-button {
+    background: white;
+    border-radius: 0.8em;
+    font-size: small;
+    margin-top: 0.175em;
+}
+.dropdown-text {
+    font-weight: lighter;
+}
+.menu-icon {
+    font-size: 32px;
+}
+.menu-icon-space {
+    padding: 0 0.75rem;
+}
+.item-space {
+    padding: 0.5rem 1rem;
+}
+.item-icon-space {
+    padding-right: 0.7rem;
+}
+/* head image */
+
+.head-image {
+    position: relative;
+    object-fit: cover;
+}
+.head-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 80%;
+    opacity: 80%;
+    color: black;
+    text-align: center;
+    padding-top: 1em;
+}
+.sub-text {
+    color: #A52A2A;
+}
+.sub-text-light {
+    font-weight: lighter;
+}
+
+.row_order {
+    flex-direction: row-reverse;
+}
+.profile_image {
+    width: 50%;
+    height: 100%;
+}
+.container-width {
+    max-width: 700px;
+}
+.intro-bg {
+    background-color: #b6c868;
+}
+.intro-margin {
+    margin:auto;
+    padding: 0 1rem
+}
+.intro-font-lg {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: #faf1e6;
+}
+.text_align {
+    text-align:center;
+}
+.profile-text {
+    font-family: Verdana;
+    font-size: 1rem;
+    color: #46947e;
+}
+.profile-name {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 4rem;
+    color: #46947e;
+}
+
+.spece-between-profile {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.heading-font {
+    font-variant-caps: all-small-caps;
+    font-size:1.3rem;
+    margin-bottom: 1rem;
+
+}
+/* location section */
+.location-section{
+    background-color: #E76A3B;
+    color: white;
+}
+.detail-button{
+    color: white;
+    padding-left: 0px;
+    font-weight: lighter;
+    background: #69483B;
+    padding: 0.5em;
+}
+.text-position {
+    margin: auto;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.row-space {
+    margin-top: 10vh;
+    margin-bottom: 50px;
+}
+.text-top-space {
+    margin-top: 100px;
+}
+.item-wrapper {
+    position: relative;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+
+.item-wrapper:hover .item-text {
+    color: #ffffff;
+    
+    
+}
+.image-darken {
+    transition: 1s;
+    filter: brightness(15%);
+}
+.item-text {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width:100%;
+    color: gray;
+    transition: 1s;   
+}
+.bottomlabel_space {
+    padding-top: 10rem;
+}
+.quote {
+    background-color: white;
+    opacity: 0.8;
+    padding: 2em;
+}
+.quote-pountuation {
+    width: 5%;
+    height: auto;
+    padding-bottom: 1em;
+}
+.container-imge {
+    max-width: 1070px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.imagesize {
+    width: 100%;
+    height: auto;
+} 
+/* footscetion */
+.footerbg {
+    background-color: #69483B;
+    color: white;
+    padding-top: 2em;
+    padding-left: 2em;
+}
+.footerimage {
+    padding-right: 0px;
+}
+.social-icon {
+    color: white;
+}
+a:hover {
+    color: white;
+}
+
+
+/* about page */
+.intro-text-space {
+ max-width: 80%;
+ margin-left: auto;
+ margin-right: auto;
+}
+.introduction-space {
+    margin-top: 150px;
+    
+}
+.image-space {
+    margin-left: 3rem;
+}
+.porfile-position {
+    width: 35%;
+    float: right;
+}
+/* contact page */
+.mail_scaled {
+    transform: scale(1.1);
+}
+.form_space {
+    padding: 0 2rem;
+}
+.modal_bgr {
+    background: #faf1e6;
+}
+.close_icon {
+    text-align: end;
+    margin: 1rem;
+}
+.contact_text {
+    text-align: center;
+    font-family: verdana;
+}
+.send_button {
+    color: white;
+    display: flex; 
+    margin: auto;
+    border-radius: 5px;
+    border:none;
+    background: #25555c;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+}
+.heading {
+    color: #707070;
+}
+.send-color {
+    background-color: #7E8449;
+    border: none;
+}
+.send-color:hover {
+    background-color: #464928;
+    border: none;
+}
+.send-hidden {
+    display: none;
+}
+/* web design page */
+.web {
+    margin: auto;
+    margin-top: 5rem;
+}
+
+/* View design page */
+.product-bottom-space{
+    margin-bottom: 5rem;
+}
+.icon-left-space {
+    margin-left: 100px !important;
+}
+.subnav-space {
+    margin-top: 13vh;   
+}
+.sub-nav-space {
+    margin-top: revert;
+}
+
+
+
+.logo-nail-height {
+    max-height: 200px;
+}
+.dialog-height {
+    height: 600px;
+}
+
+.dialog-image-space {
+    display: block;
+    margin: 0 auto;
+}
+.dialog-border {
+    border: none;
+}
+.dialog-image-math {
+    width:80%
+}
+.dialog-image-monster {
+    width:100%;
+}
+.dialog-image-bookcover {
+    width: 50%;
+}
+.logo-image-math{
+    width: 65%;
+}
+.logo-image-monster {
+    width: 72%;
+}
+.view-item-wrapper {
+    position: relative;
+    margin-top: 80px;
+}
+.cursor-point {
+    cursor: pointer;
+}
+
+/* UX/UI page */
+.sub-container {
+    max-width: 700px;
+    margin: 0 auto;
+    
+}
+.UX_topspace {
+    margin-top: 5rem;
+}
+.research-image {
+    width: 100%;
+}
+.text-spce {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+.image-spce {
+    margin-right:4rem;
+}
+
+/* product page */
+.orange_trangle_image {
+    background: url(./image/orange_trangle.png);
+}
+.bird_logo_bg {
+    background-color: #60ada6;
+}
+.restaurant_logo_bg {
+    background-color: #f3aa33;
+}
+.brochure_bg {
+    background-color: #a55b58;
+}
+/* media for all */
+@media (min-width: 992px) {
+  .navbar-expand-lg .btn-group {
+    display: none;
+ }
+}
+@media (max-width: 353px) {
+   .intro-font-lg {
+       font-size: 1.8rem;
+   }
+    
+}
+@media (min-width: 354px) and (max-width:510px){
+    .intro-font-lg {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 578px) {
+    .profile_image {
+        width: 30%;
+    }
+}
+@media (max-width:320px){
+    .first-layer::before{
+        font-size: 1.5rem;
+    }
+}
+@media (min-width:1190px) {
+    .first-layer::before{
+        font-size: 3rem;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .container-imge {
+        display: flex;
+        flex-wrap: nowrap;
+        height: 300px;
+        overflow-x: auto;
+        width: auto;
+        justify-content: start;
+    }
+    .imagesize {
+        width: 400px;
+        height: auto;
+    }
+  }
