@@ -51,14 +51,14 @@ p{
     opacity: 0.7;
 }
 .bg {
-    background-color: #faf1e6;
+    background-color: #FFDB63;
 }
 /* Navagation bar */
 .nav-right {
     margin-right: 50px;
 }
 .nav-bg {
-    background-color: #F0DFC5;
+    background-color: #FFDB63;
 }
 .nav-space {
     padding-right: 4em;
@@ -108,10 +108,6 @@ p{
     color: black;
     text-align: center;
     padding-top: 1em;
-}
-#headImage {
-    width:100%; 
-    height:auto;
 }
 .sub-text {
     color: #A52A2A;
@@ -166,16 +162,20 @@ p{
     margin-bottom: 1rem;
 
 }
+#headImage {
+    width:100%; 
+    height:auto;
+}
 /* location section */
 .location-section{
-    background-color: #E76A3B;
+    background-color: #6C63FF;
     color: white;
 }
 .detail-button{
-    color: white;
+    color: #6C63FF;;
     padding-left: 0px;
     font-weight: lighter;
-    background: #69483B;
+    background: white;
     padding: 0.5em;
 }
 .text-position {
@@ -247,7 +247,7 @@ p{
 } 
 /* footscetion */
 .footerbg {
-    background-color: #69483B;
+    background-color: #6C63FF;
     color: white;
     padding-top: 2em;
     padding-left: 2em;
@@ -431,8 +431,8 @@ a:hover {
         font-size: 2rem;
     }
     #headImage {
-        margin-top:4em;
-     }
+       margin-top:4em;
+    }
 }
 @media (max-width: 578px) {
     .profile_image {
